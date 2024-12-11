@@ -11,7 +11,7 @@ The SG Traffic Telegram Bot provides real-time traffic and travel information fo
    - **Incident Analysis**: Based on the categorized incidents, the bot will provides concise summaries of the traffic status along major routes for quick insights.
    - **Dynamic Visualization**: Utilized Folium to plot incidents on an interactive map of Singapore with each incident represented with markers and pop-ups, providing users with a realistic and intuitive view of affected areas.
   
-    <img src="Image/LTA_DataMall_API_User_Guide.png" alt="Traffic Info API Response" width="400" height="300"/>
+       <img src="Image/LTA_API_TRAFFIC_EG.png" alt="Traffic Info API Response" width="400" height="300"/>
    
 
 2. **Estimated Travel Times**  
@@ -19,7 +19,7 @@ The SG Traffic Telegram Bot provides real-time traffic and travel information fo
    - **Data Transformation**: Extracts and formats key details, such as start points, end points, and route descriptions. Numerical data is converted into descriptive terms for clarity, and the information is structured into a pandas DataFrame for efficient processing and transformation.
    - **Data Presentation**: Organizes travel time data into a user-friendly format, categorizing it by expressways. Each highway's exits are individually detailed, ensuring clarity and specificity in the information provided.
    
-   <img src="Image/LTA_API_TIME_EG.png" alt="Travel Time API Response" width="400" height="300"/>
+      <img src="Image/LTA_API_TIME_EG.png" alt="Travel Time API Response" width="400" height="300"/>
 
 3. **Interactive User Experience**
    Leveraged on pyTelegramBotAPI for features such as:
